@@ -1,5 +1,5 @@
-var FOLDER_ID = ''; //保存するフォルダ
-var SEARCH_TERM = 'from:(xxx@gmail.com) smaller:299K';
+var FOLDER_ID = 'your_folder_id'; //保存するフォルダ
+var SEARCH_TERM = 'from:(yours@gmail.com) smaller:299K';
 
 function getMail(){
   var myFolder = DriveApp.getFolderById(FOLDER_ID); //フォルダを取得
