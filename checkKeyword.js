@@ -11,7 +11,7 @@ function checkKeyword() {
   var theSheet;
   
   try {
-    theSS = SpreadsheetApp.openById('1V9pE0DQDx3RzHfSvSy-CaxVtHhDPDTTeeKzH3Es2PaM'); // PDA日別個人情報案件チェック
+    theSS = SpreadsheetApp.openById('your_sheet_id'); // PDA日別個人情報案件チェック
     theSheetArray = theSS.getSheets();
 //    theSheet = theSS.getActiveSheet();
   }
